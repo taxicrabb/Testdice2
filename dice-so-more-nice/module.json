@@ -13,8 +13,8 @@
   ],
   "scripts": ["scripts/nice-more-dice.json"],
   "url": "https://github.com/taxicrabb/Testdice2",
-  "manifest": "https://raw.githubusercontent.com/taxicrabb/Testdice2/edit/main/dice-so-more-nice/module.json",
-  "download": "https://raw.githubusercontent.com/LyncsCwtsh/fvtt-module-nice-more-dice/main/module.zip",
+  "manifest": "https://raw.githubusercontent.com/taxicrabb/Testdice2/blob/main/dice-so-more-nice/module.json",
+  "download": "https://raw.githubusercontent.com/taxicrabb/Testdice2/blob/main/Testdice2-module.zip",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "10",
   "compatibility": {
