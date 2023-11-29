@@ -12,7 +12,7 @@
         }
     ],
     "scripts": [
-        "scripts/nice-more-dice.json"
+        "scripts/nice-more-dice.js"
     ],
     "url": "https://github.com/taxicrabb/Testdice2",
     "manifest": "https://raw.githubusercontent.com/taxicrabb/Testdice2/main/dice-so-more-nice/module.json",
