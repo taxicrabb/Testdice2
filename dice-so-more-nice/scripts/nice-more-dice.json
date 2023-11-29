@@ -1,5 +1,5 @@
 Hooks.on('diceSoNiceReady', (dice3d) => {
-  dice3d.addSystem({ id: "mapleleaf", name: "⧋ Maple Leaf" }, "default");
+  dice3d.addSystem({ id: "Mapleleaf", name: "⧋ Maple Leaf" }, "default");
    
   dice3d.addTexture("Mapleleaf", {
     name: "⧋ Maple Leaf",
