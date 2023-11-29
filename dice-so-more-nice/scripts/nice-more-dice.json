@@ -6,16 +6,19 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
 	    source: "modules/nice-more-dice/textures/Mapleleaf.webp"
 	});
 
-  dice3d.addSystem({id:"TD",name:"⧋ Test d4 (d4, special)"},false);
+Hooks.on('diceSoNiceReady', (dice3d) => {
+  dice3d.addSystem({id:"TD",name:"⧋ Test d4 (d4, special)"}, "default");
 
-  dice3d.addDicePreset({
-    type:"d4",
-    labels:[
-      'modules/nice-more-dice/faces/testd/d4-1.webp',
-      'modules/nice-more-dice/faces/testd/d4-2.webp',
-      'modules/nice-more-dice/faces/testd/d4-3.webp',
-      'modules/nice-more-dice/faces/testd/d4-4.webp'
-    ],
-	system:"TD"
-  });
+   dice3d.addDicePreset({
+     type: "d4",
+	      labels: [
+       "modules/nice-more-dice/faces/testd/d4-1.webp",
+       "modules/nice-more-dice/faces/testd/d4-2.webp",
+       "modules/nice-more-dice/faces/testd/d4-3.webp",
+       "modules/nice-more-dice/faces/testd/d4-4.webp"
+     ],
+     system: "TD"
+	 
+   },"d4");
+
 });
