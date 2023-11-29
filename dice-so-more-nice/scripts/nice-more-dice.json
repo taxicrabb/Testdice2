@@ -1,10 +1,12 @@
 Hooks.on('diceSoNiceReady', (dice3d) => {
-
-    dice3d.addTexture("Mapleleaf", {
-	    name: "⧋ Maple Leaf",
-	    composite: "overlay",
-	    source: "modules/nice-more-dice/textures/Mapleleaf.webp"
-	});
+  dice3d.addSystem({ id: "mapleleaf", name: "⧋ Maple Leaf" }, "default");
+   
+  dice3d.addTexture("Mapleleaf", {
+    name: "⧋ Maple Leaf",
+    composite: "darken",
+    source: "modules/nice-more-dice/textures/Mapleleaf.webp",
+	bump: "modules/nice-more-dice/textures/Mapleleaf.webp"
+  })
 
 Hooks.on('diceSoNiceReady', (dice3d) => {
   dice3d.addSystem({id:"TD",name:"⧋ Test d4 (d4, special)"}, "default");
