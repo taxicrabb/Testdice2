@@ -15,11 +15,10 @@
   "url": "https://github.com/taxicrabb/Testdice2",
   "manifest": "https://raw.githubusercontent.com/taxicrabb/Testdice2/main/dice-so-more-nice/module.json",
   "download": "https://github.com/taxicrabb/Testdice2/raw/main/Testdice2-module.zip",
-  "minimumCoreVersion": "0.7.9",
+  "minimumCoreVersion": "10.291",
   "compatibleCoreVersion": "11",
   "compatibility": {
-    "minimum": "0.7.9",
-    "verified": 11,
-    "maximum": 11
+    "minimum": "10",
+    "verified": "10.291"
   }
 }
