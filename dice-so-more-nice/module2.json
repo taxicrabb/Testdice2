@@ -13,17 +13,10 @@
   "authors": [
     {
 		"name":"taxicrab",
-		"url": "null",
-		"discord": "null"
+		"url": "https://github.com/taxicrabb",
+		"discord": "taxicrab"
     }
   ],
-  "relationships": {
-	  "requires": [{
-		"id": "dice-so-nice",
-		"type": "module",
-		"manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json"
-	  }]
-	},
   "conflicts": [
     
   ],
