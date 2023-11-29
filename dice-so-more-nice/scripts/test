@@ -1,4 +1,3 @@
-
 Hooks.on('diceSoNiceReady', (dice3d) => {
   dice3d.addSystem({ id: "LCD - Forbidden Knowledge", name: "🐸 Forbidden Knowledge" }, "default");
    
