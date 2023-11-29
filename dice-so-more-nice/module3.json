@@ -23,11 +23,8 @@
   "conflicts": [
     
   ],
-  "esmodules": [
-    "scripts/emojiDice.js"
-  ],
   "scripts": [
-    "scripts/otherDice.js"
+    "scripts/nicemoredice.js"
   ],
   "styles": [
   ],
@@ -35,7 +32,7 @@
 
   ],
   "url": "https://github.com/taxicrabb/Testdice2",
-  "manifest": "https://github.com/Orksork/foundry-emojidice/releases/latest/download/module.json",
-  "download": "https://github.com/Orksork/foundry-emojidice/releases/download/1.0/module.zip",
-  "readme": "https://raw.githubusercontent.com/Orksork/foundry-emojidice/main/README.md"
+  "manifest": "https://github.com/taxicrabb/Testdice2/blob/main/dice-so-more-nice/module3.json",
+  "download": "https://github.com/taxicrabb/Testdice2/blob/main/Testdice2-module.zip",
+  "readme": "https://github.com/taxicrabb/Testdice2/raw/main/README.md"
 }
